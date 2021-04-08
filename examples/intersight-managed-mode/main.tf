@@ -46,5 +46,5 @@ module "imm_profile" {
   mac_pool                = "sjc02-de30-mac"
   ethernet_network_group  = "tf-module-sjc07-248-net-group"
   cluster_vlan            = 248
-  vnic_name               = "eth007"
+  vnic_name               = var.vnic_name
 }

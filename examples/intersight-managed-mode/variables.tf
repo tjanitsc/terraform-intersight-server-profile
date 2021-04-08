@@ -20,3 +20,9 @@ variable "server_profile_action" {
   description = "Desired Action for the server profile (e.g., Deploy, Unassign)"
   default     = "No-op"
 }
+
+variable "vnic_name" {
+  type        = string
+  description = "VNIC Ethernet Interface name"
+  default     = "eth0"
+}
