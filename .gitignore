@@ -1,0 +1,13 @@
+#  Local .terraform directories and files
+**/.terraform/*
+*.terraform.*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+terraform.tfvars
+
+# pre-commit
+.pre-commit-config.*
